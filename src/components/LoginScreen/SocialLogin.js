@@ -37,7 +37,7 @@ const SocialLogin = () => {
     const signInwithFacebookAsync = async () => {
         try {
             await Facebook.initializeAsync({
-                appId: '972787646655049',
+                appId: 'xxxxxxxxxxxxxxx',
               });
               const { type, token } = await Facebook.logInWithReadPermissionsAsync({
                 permissions: ['public_profile'],
